@@ -97,8 +97,8 @@ const Proyect = () => {
                    <br />
                    About me:<br />
                    -I love drawing and music<br />
-                   -In my free time I practice with my Sax<br />
-                    or I play different online games.<br />
+                   -In my free time I practice with my Sax,<br />
+                   or play different online games.<br />
                 </p>
               </div>
             </Modal>
