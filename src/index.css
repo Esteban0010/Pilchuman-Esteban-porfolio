@@ -40,7 +40,7 @@ section[id]{
 
  @media(max-width:600px){
     body{
-    background-image: url("https://res.cloudinary.com/ddroxn7iv/image/upload/v1664201845/Repositorio/fondo-responsive_gweqoa.png"); 
+    background-image: url("../src/assets/Bd-responsive.png"); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     }

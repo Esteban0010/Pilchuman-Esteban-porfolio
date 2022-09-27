@@ -71,6 +71,7 @@
     padding: 0.5em 1em;
     border-radius: 10px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 .presentation button:hover{
     filter: brightness(1.5);

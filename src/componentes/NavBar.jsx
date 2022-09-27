@@ -17,14 +17,14 @@ const NavBar = () => {
         <button onClick={() => setOpen(!open)} className={nav.close}>
         <AiOutlineClose/>
         </button>
-        <li><a onClick={() => setOpen(!open)} href="#presentation">Inicio</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#presentation">Home</a></li>
         <li><a onClick={() => setOpen(!open)} href="#proyect">Proyect</a></li>
         <li><a onClick={() => setOpen(!open)} href="#skill">Skill</a></li>
         {/* <li><a onClick={() => setOpen(!open)} href="#contact">Contact</a></li>
         <li><a onClick={() => setOpen(!open)} href="#contact">About me</a></li> */}
       </ul>)}
       <ul className={nav.menu}>
-        <li><a onClick={() => setOpen(!open)} href="#presentation">Inicio</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#presentation">Home</a></li>
         <li><a onClick={() => setOpen(!open)} href="#proyect">Proyect</a></li>
         <li><a onClick={() => setOpen(!open)} href="#skill">Skill</a></li>
         {/* <li><a onClick={() => setOpen(!open)} href="#contact">Contact</a></li>
