@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <header className={nav.header}>
       <nav className={nav.nav}>
-      <a href='../assets/Cv_Pilchuman_Esteban_Dev.pdf' download><button className={nav.nombre}>Download Cv</button></a>{!open ? (
+      <a href='../assets/Cv_Pilchuman_Esteban_Dev.pdf' download><button className={nav.nombre}>Download CV</button></a>{!open ? (
 				  <button onClick={() => setOpen(!open)} className={nav.open}>
           <AiOutlineMenu/>
           </button>

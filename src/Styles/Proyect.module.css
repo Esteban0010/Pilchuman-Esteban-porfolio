@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     background-color: rgba(150, 202, 185, 0.219);
     border-radius: 20px;
+   
 }
 .card{
     width: 200px;
@@ -45,7 +46,7 @@
 }
 
 .card:hover .cover img{
-    top:15px
+    top:15px;
     }
 
 .card .imgback{
@@ -79,9 +80,9 @@
 .card .description h2{
     margin-top: 10px;
 }
-.card .description p{
+/* .card .description p{
     margin-top: 10px;
-}
+} */
 .card .description button{
     padding: 10px 40px;
     margin-top: 20px;
@@ -97,17 +98,32 @@
 .card .description button:hover{
     background: rgb(69, 189, 173);
 }
+
+.container__details{
+    max-width: 90%;
+    margin: 60px auto;
+}
+
 .detail{
-    padding: 40px 30px 30px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
     text-align: left;
 }
 .title__details{
+
+    margin-top: 40px;
     font-weight: 500px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 @media(max-width:600px){
+    .proyect{
+        padding-bottom: 40px;
+    }
     .card{
         margin: auto;
+    }
+    .container{
+        padding-bottom: 80px;
     }
 }

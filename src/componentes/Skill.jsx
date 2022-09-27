@@ -5,7 +5,7 @@ import estudio from "../assets/Estudios.png"
 const Skill = () => {
   return (
     <section className={s.skill} id="skill">
-      <h1> Skill and Experiencia</h1>  
+      <h1> Skills and Experiencie</h1> 
       <div className={s.exp}>
     <div className={s.cont} >
       <div className={s.conteiner}>
