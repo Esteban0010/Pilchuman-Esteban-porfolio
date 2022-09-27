@@ -1,0 +1,105 @@
+.skill {
+    padding-top: 6rem; 
+}
+
+.skill .cont{
+   max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-content: center;
+}
+.skill h1{
+    text-align: center;
+    font-size: 35px;
+    
+}
+.Image{
+    margin:10px;
+    height: 60px;
+    width: 60px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.Image:hover{
+    transform: scale(1.25);
+    transition: all 200ms;
+}
+ .exp{
+    max-width: 1000px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin: 5px auto 100px auto;
+ }
+ 
+.conteiner{
+  text-align: center;
+  margin-top: 40px;
+}
+.Studi{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.experiencia{
+    
+    margin-top: 50px;
+    max-width: 500px;
+    align-content: center;
+    
+    
+}
+.backgroundexp{
+    padding: 30px 20px 30px 50px;
+    border-radius: 10px;
+    background-color: rgba(150, 202, 185, 0.457);
+}
+.titleExp{
+    display: flex;
+}
+.skill .img .studi{
+    width: 300px;
+    height: 300px;
+}
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+  /* Visible texto */
+  figure:hover > figcaption {
+    display:block;
+    transition: all .5s;
+  }
+  @media(max-width:600px){
+    /* .skill{
+        display: block;
+    } */
+    .skill .skill{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        align-content: center;
+    }
+    .skill h1{
+        font-size: 30px;
+    }
+
+    .exp{
+        display: block;
+    }
+
+    .skill img{
+        height: 50px;
+        width: 50px;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    }
+    .Studi{
+        display: none;
+    }
+
+  }

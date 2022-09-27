@@ -1,0 +1,13 @@
+
+.section {
+    display: flex;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.section img{
+    width: 100px;
+    height: 100px;
+}
+.section h2{
+    font-size: 19px;
+}
