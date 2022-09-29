@@ -54,9 +54,9 @@ const Skill = () => {
       <div className={s.titleExp}><h2>2022-   </h2>
       <h2>Full-Stack Developer</h2></div>
       <p>Henry<br/>Design and develop an E-commerce oriented to the sale of gamer products</p>
-      </div>
-      <div data-aos="fade-up" >
-      <img src={estudio} alt="sin img" className={s.Studi} />
+      </div >
+      <div className={s.conteiner_logo}>
+      <img src="https://res.cloudinary.com/ddroxn7iv/image/upload/v1664469239/Repositorio/Logo-Esteban_b4cff0.png" alt="sin img" className={s.Studi} />
       </div>
     </div>
 </div>
