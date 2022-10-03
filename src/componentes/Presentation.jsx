@@ -56,6 +56,7 @@ const Presentation = () => {
       <img data-aos="zoom-out-right"
         className={s.imgR}
         src={Logo} alt='No img' />
+        
     </section>
   )
 }

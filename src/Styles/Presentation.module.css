@@ -42,7 +42,7 @@
     height: auto;
     align-content: center;
     max-width: 500px;
-    margin: auto 0 auto 5%;
+    margin: auto 0;
 }
 
 .Saludo{
@@ -148,7 +148,7 @@
 }
 
 
-@media(max-width:600px) {
+@media(max-width:750px) {
 
     .presentation {
         padding-top: 5rem;
@@ -156,6 +156,9 @@
         /* background-color: #5B8291; */
         justify-content: space-between;
         text-align: start;
+        display: block;
+    }
+    .display_resp{
         display: block;
     }
     .present {

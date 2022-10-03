@@ -13,7 +13,7 @@ const Proyect = () => {
     <section className={s.proyect} id="proyect">
       <proyect className={s.container}>
         <div data-aos="fade-up" 
-        data-aos-duration="3000"
+        data-aos-duration="6000"
         className={s.card} style={{transition: "1000ms"}} >
           <div className={s.cover}>
             <a target="_blank" href="https://rgbtech.vercel.app/">
@@ -52,7 +52,7 @@ const Proyect = () => {
           </div>
         </div>
         <div data-aos="fade-up"
-        data-aos-duration="3000"
+        data-aos-duration="6000"
          className={s.card}
          style={{transition: "1000ms"}} >
           <div className={s.cover}>
@@ -86,6 +86,7 @@ const Proyect = () => {
           </div>
         </div>
         <div data-aos="fade-up" 
+        data-aos-duration="6000"
         className={s.card} 
         style={{transition: "1000ms"}}>
           <div className={s.cover}>
