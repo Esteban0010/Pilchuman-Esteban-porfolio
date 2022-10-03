@@ -14,7 +14,7 @@ const Proyect = () => {
       <proyect className={s.container}>
         <div data-aos="fade-up" 
         data-aos-duration="3000"
-        className={s.card} >
+        className={s.card} style={{transition: "1000ms"}} >
           <div className={s.cover}>
             <a target="_blank" href="https://rgbtech.vercel.app/">
               <img src='https://res.cloudinary.com/ddroxn7iv/image/upload/v1664201968/Repositorio/Astronauta_3d_t1axew.png' alt="" />
@@ -53,7 +53,8 @@ const Proyect = () => {
         </div>
         <div data-aos="fade-up"
         data-aos-duration="3000"
-         className={s.card} >
+         className={s.card}
+         style={{transition: "1000ms"}} >
           <div className={s.cover}>
             <img src='https://res.cloudinary.com/ddroxn7iv/image/upload/v1663243330/Repositorio/cardDog_bbdxl7.png' alt='' />
             <div className={s.imgback}></div>
@@ -85,8 +86,8 @@ const Proyect = () => {
           </div>
         </div>
         <div data-aos="fade-up" 
-        data-aos-duration="3000"
-        className={s.card} >
+        className={s.card} 
+        style={{transition: "1000ms"}}>
           <div className={s.cover}>
             <img src='https://res.cloudinary.com/ddroxn7iv/image/upload/v1663243664/Repositorio/card_portafolio_jdu2hu.png' alt="" />
             <div className={s.imgback}></div>
