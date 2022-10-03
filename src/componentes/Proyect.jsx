@@ -2,6 +2,8 @@ import React from 'react'
 import s from "../Styles/Proyect.module.css"
 import { useModal } from '../Hook/UseModal'
 import Modal from './Modal'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Proyect = () => {
   const [isOpenModal2, openModal2, closeModal2] = useModal(false)
@@ -10,7 +12,9 @@ const Proyect = () => {
   return (
     <section className={s.proyect} id="proyect">
       <proyect className={s.container}>
-        <div className={s.card} >
+        <div data-aos="fade-up" 
+        data-aos-duration="3000"
+        className={s.card} >
           <div className={s.cover}>
             <a target="_blank" href="https://rgbtech.vercel.app/">
               <img src='https://res.cloudinary.com/ddroxn7iv/image/upload/v1664201968/Repositorio/Astronauta_3d_t1axew.png' alt="" />
@@ -47,7 +51,9 @@ const Proyect = () => {
             </Modal>
           </div>
         </div>
-        <div className={s.card} >
+        <div data-aos="fade-up"
+        data-aos-duration="3000"
+         className={s.card} >
           <div className={s.cover}>
             <img src='https://res.cloudinary.com/ddroxn7iv/image/upload/v1663243330/Repositorio/cardDog_bbdxl7.png' alt='' />
             <div className={s.imgback}></div>
@@ -78,7 +84,9 @@ const Proyect = () => {
             </Modal>
           </div>
         </div>
-        <div className={s.card} >
+        <div data-aos="fade-up" 
+        data-aos-duration="3000"
+        className={s.card} >
           <div className={s.cover}>
             <img src='https://res.cloudinary.com/ddroxn7iv/image/upload/v1663243664/Repositorio/card_portafolio_jdu2hu.png' alt="" />
             <div className={s.imgback}></div>
