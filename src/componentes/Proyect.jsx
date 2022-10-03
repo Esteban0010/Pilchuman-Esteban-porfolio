@@ -56,7 +56,7 @@ const Proyect = () => {
          className={s.card}
          style={{transition: "1000ms"}} >
           <div className={s.cover}>
-            <img src='https://res.cloudinary.com/ddroxn7iv/image/upload/v1663243330/Repositorio/cardDog_bbdxl7.png' alt='' />
+            <img src='https://res.cloudinary.com/ddroxn7iv/image/upload/v1664800726/Repositorio/cardDog_gmxz8x.png' alt='' />
             <div className={s.imgback}></div>
           </div>
           <div className={s.description}>
