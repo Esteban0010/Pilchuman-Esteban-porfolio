@@ -56,7 +56,9 @@ const Proyect = () => {
          className={s.card}
          style={{transition: "1000ms"}} >
           <div className={s.cover}>
+          <a target="_blank" href="https://proyecto-individual-dogs-nu.vercel.app/">
             <img src='https://res.cloudinary.com/ddroxn7iv/image/upload/v1664800726/Repositorio/cardDog_gmxz8x.png' alt='' />
+            </a>
             <div className={s.imgback}></div>
           </div>
           <div className={s.description}>
